@@ -14,12 +14,12 @@ To write a C Program to find area of rectangle using pointer.
     #include<stdio.h>
     int main()
     {
-    int length,breadth,area;
-    int *pLength,*pBreadth;
+    float length,breadth,area;
+    flaot *pLength,*pBreadth;
     printf("Enter the length of the rectangle:\n");
-    scanf("%d",&length);
+    scanf("%f",&length);
     printf("Enter the breadth of the rectangle:\n");
-    scanf("%d",&breadth);
+    scanf("%f",&breadth);
     pLength=&length;
     pBreadth=&breadth;
     area=(*pLength)*(*pBreadth);
@@ -217,8 +217,8 @@ Step 8: End the program.
     struct student {
     char name[10];
     int rollno;
-    int subject[5];
-    int total;
+    float subject[5];
+    float total;
     };
     int main()
     {
@@ -232,7 +232,7 @@ Step 8: End the program.
         for(j=0;j<5;j++)
 		{
             printf("Enter marks for subject %d: ",j+1);
-            scanf("%d",&s[i].subject[j]);
+            scanf("%f",&s[i].subject[j]);
         }
     }
     for(i=0;i<2;i++)
@@ -249,13 +249,14 @@ Step 8: End the program.
 	{
         float average=s[i].total/5.0;
         printf("\nStudent %d\n",i+1);
-        printf("Total Marks: %d\n",s[i].total);
+        printf("Total Marks: %f\n",s[i].total);
         printf("Average Marks: %.2f\n",average);
     }
     }
 ## OUTPUT
 
-![Screenshot 2025-04-28 183847](https://github.com/user-attachments/assets/b18ee962-70cc-4e2d-a74e-f2239ff5892f)
+![image](https://github.com/user-attachments/assets/09d23218-2f45-46bf-9ce2-cbb617d5918e)
+
 
 ## RESULT
 
