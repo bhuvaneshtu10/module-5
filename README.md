@@ -15,7 +15,7 @@ To write a C Program to find area of rectangle using pointer.
     int main()
     {
     float length,breadth,area;
-    flaot *pLength,*pBreadth;
+    float *pLength,*pBreadth;
     printf("Enter the length of the rectangle:\n");
     scanf("%f",&length);
     printf("Enter the breadth of the rectangle:\n");
@@ -27,7 +27,8 @@ To write a C Program to find area of rectangle using pointer.
     }
 ## OUTPUT
 		       	
-![Screenshot 2025-04-28 181837](https://github.com/user-attachments/assets/a1b777f9-751c-4a3b-bf0b-070ccfe0779f)
+![image](https://github.com/user-attachments/assets/42ad74fd-9ef9-4ab7-8eb0-71a47944b51b)
+
 
 ## RESULT
 Thus the program to find area of rectangle using pointer has been executed successfully
